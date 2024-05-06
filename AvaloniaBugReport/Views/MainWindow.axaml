@@ -21,6 +21,10 @@
             <Label Content="Test" />
             <Label Content="{Binding Path=TestInt}" />
         </StackPanel>
+
+        <ItemsControl
+            ItemsSource="{Binding Path=TestNotifiedEnumerable}">
+        </ItemsControl>
     </StackPanel>
 
 </Window>
